@@ -85,13 +85,13 @@ function draw() {
 
 function createButtons() {
     buttonSound = createButton("Mute Game");
-    buttonSound.position(230, 590);
+    buttonSound.position(250, 590);
     buttonSound.mousePressed(toggleSound);
     buttonReplay = createButton("Replay");
-    buttonReplay.position(640, 590);
+    buttonReplay.position(660, 590);
     buttonReplay.mousePressed(toggleReplay);
     buttonInstructions = createButton("Instructions");
-    buttonInstructions.position(1030, 590);
+    buttonInstructions.position(1050, 590);
     buttonInstructions.mousePressed(toggleInstructions);
 }
 
