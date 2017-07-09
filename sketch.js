@@ -110,7 +110,7 @@ function toggleReplay() {
 }
 
 function toggleInstructions() {
-    alert("Each Game has 5 balls. One player uses SHIFT and CTRL " +
+    alert("Each Game has 5 balls. One player uses TAB and SHIFT " +
         "to move left paddle,\nthe other uses UP and DOWN arrows to move right paddle." +
         "\nIn the end, the player with more balls scored wins!");
 }
@@ -246,7 +246,7 @@ function collidedPlayer() {
 
 function keyPressed() {
     // function to move rectangles with keys
-    if (keyIsDown(BACKSPACE)) {
+    if (keyIsDown(TAB)) {
         if (rect1_y > rect_height) {
             rect1_y -= rect_height;
         }
