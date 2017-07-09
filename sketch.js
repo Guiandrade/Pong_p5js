@@ -29,6 +29,8 @@ var sound = true;
 var buttonSound;
 var buttonReplay;
 var buttonInstructions;
+var wKeyCode = 87;
+var sKeyCode = 83;
 
 // Game Information
 var maxBallsPerGame = 5;
@@ -246,12 +248,12 @@ function collidedPlayer() {
 
 function keyPressed() {
     // function to move rectangles with keys
-    if (keyIsDown(SHIFT)) {
+    if (keyIsDown(wKeyCode)) {
         if (rect1_y > rect_height) {
             rect1_y -= rect_height;
         }
     }
-    if (keyIsDown(CONTROL)) {
+    if (keyIsDown(sKeyCode)) {
         if (rect1_y < (height - rect_height)) {
             rect1_y += rect_height;
         }
