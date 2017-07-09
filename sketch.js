@@ -251,7 +251,7 @@ function keyPressed() {
             rect1_y -= rect_height;
         }
     }
-    if (keyIsDown(CTRL)) {
+    if (keyIsDown(CONTROL)) {
         if (rect1_y < (height - rect_height)) {
             rect1_y += rect_height;
         }
