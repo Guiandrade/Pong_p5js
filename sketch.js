@@ -4,8 +4,8 @@
     Guilherme Andrade
     February 2017
 
-    Game plays best out of 5. One player uses SHIFT and CTRL to move
-    left paddle, the other uses UP and DOWN arrows to move right paddle.
+    Game plays best out of 5. One player uses W and S keys to move
+    left paddle, the other uses O and L keys to move right paddle.
 
     Key points:
      -Two Players on Same Keyboard
@@ -110,8 +110,8 @@ function toggleReplay() {
 }
 
 function toggleInstructions() {
-    alert("Each Game has 5 balls. One player uses SHIFT and CTRL " +
-        "to move left paddle,\nthe other uses UP and DOWN arrows to move right paddle." +
+    alert("Each Game has 5 balls. One player uses W and S keys " +
+        "to move left paddle,\nthe other uses O and L keys to move right paddle." +
         "\nIn the end, the player with more balls scored wins!");
 }
 
