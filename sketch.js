@@ -246,12 +246,12 @@ function collidedPlayer() {
 
 function keyPressed() {
     // function to move rectangles with keys
-    if (keyIsDown(SHIFT)) {
+    if (keyIsDown(87)) {
         if (rect1_y > rect_height) {
             rect1_y -= rect_height;
         }
     }
-    if (keyIsDown(CONTROL)) {
+    if (keyIsDown(83)) {
         if (rect1_y < (height - rect_height)) {
             rect1_y += rect_height;
         }
