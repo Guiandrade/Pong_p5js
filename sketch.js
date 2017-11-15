@@ -261,7 +261,7 @@ function keyTyped() {
             rect2_y -= rect_height;
         }
     }
-    if (key === 'l')) {
+    if (key === 'l') {
         if (rect2_y < (height - rect_height)) {
             rect2_y += rect_height;
         }
