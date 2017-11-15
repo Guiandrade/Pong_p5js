@@ -244,24 +244,24 @@ function collidedPlayer() {
     }
 }
 
-function keyPressed() {
+function keyTyped() {
     // function to move rectangles with keys
-    if (keyIsDown(87)) {
+    if ( key === 'w') {
         if (rect1_y > rect_height) {
             rect1_y -= rect_height;
         }
     }
-    if (keyIsDown(83)) {
+    if (key === 's') {
         if (rect1_y < (height - rect_height)) {
             rect1_y += rect_height;
         }
     }
-    if (keyIsDown(UP_ARROW)) {
+    if (key === 'o') {
         if (rect2_y > rect_height) {
             rect2_y -= rect_height;
         }
     }
-    if (keyIsDown(DOWN_ARROW)) {
+    if (key === 'l')) {
         if (rect2_y < (height - rect_height)) {
             rect2_y += rect_height;
         }
